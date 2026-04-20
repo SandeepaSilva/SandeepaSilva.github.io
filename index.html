@@ -8,7 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=10">
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -37,12 +37,14 @@
         <!-- Home Section -->
         <section id="home" class="hero section hidden">
             <div class="hero-content">
+                <div class="hero-img-container" style="background-image: url('profile.png');"></div>
                 <p class="greeting">Hello, I'm</p>
                 <h1 class="name">Sandeepa Silva</h1>
                 <h2 class="role">
-                    <span class="highlight">Frontend Developer</span> | Future Full Stack Developer
+                    <span class="highlight">Computer Science Student</span> | Aspiring Software Developer
                 </h2>
-                <p class="intro">I build clean, responsive, and user-friendly web applications.</p>
+                <p class="intro">I build clean, responsive applications while continuously learning and exploring
+                    different areas of software development.</p>
                 <a href="#projects" class="btn primary-btn">View Projects <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <!-- Optional graphic or abstract shape here for modern look -->
@@ -61,13 +63,11 @@
                 </div>
                 <div class="about-content">
                     <div class="about-text">
-                        <p>I am a <strong>Computer Science undergraduate</strong> with a strong passion for crafting
-                            digital experiences. My current focus is heavily centered around frontend development, where
-                            I strive to create intuitive, accessible, and visually compelling interfaces.</p>
-                        <p>Beyond the frontend, I am actively expanding my skillset towards full-stack development,
-                            eager to bridge the gap between seamless user experiences and robust backend architectures.
-                            I embrace continuous learning and am always looking for the next challenging problem to
-                            solve.</p>
+                        <p>I am a Computer Science undergraduate with a strong foundation in programming and
+                            problem-solving. I enjoy building applications and working on practical projects that
+                            improve my technical skills.</p>
+                        <p>I am continuously learning and exploring different areas of software development, and I am
+                            currently seeking internship opportunities to gain real-world industry experience.</p>
                     </div>
                 </div>
             </div>
@@ -88,6 +88,7 @@
                     <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python</span></div>
                     <div class="skill-card"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
                     <div class="skill-card"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+                    <div class="skill-card"><i class="fa-solid fa-network-wired"></i><span>REST APIs</span></div>
                 </div>
             </div>
         </section>
@@ -153,9 +154,9 @@
                         <div class="project-content">
                             <h3>To-Do App</h3>
                             <p>
-                                Developed a dynamic To-Do application with features such as adding,
-                                deleting, completing, and filtering tasks. Built using JavaScript
-                                with a clean and responsive interface.
+                                Developed a task management application with features such as adding,
+                                deleting, completing, and filtering tasks. Implemented dynamic
+                                functionality and responsive UI for improved user experience.
                             </p>
                             <div class="project-tech">
                                 <span>HTML</span><span>CSS</span><span>JavaScript</span>
@@ -172,15 +173,16 @@
                         <div class="project-content">
                             <h3>Techzaz EDR</h3>
                             <p>
-                                A modern website developed for an Endpoint Detection and Response (EDR) solution.
-                                Designed to cleanly showcase product features and provide an engaging user experience.
+                                A team-based security monitoring dashboard developed to visualize system alerts and
+                                endpoint activity. Contributed to frontend and backend integration and supported overall
+                                system development.
                             </p>
                             <div class="project-tech">
                                 <span>Angular</span><span>FastAPI</span><span>Firebase</span>
                             </div>
                             <div class="project-links">
                                 <a href="https://github.com/Techzaz-EDR" target="_blank" class="project-btn">GitHub</a>
-                                <a href="https://www.techzazedr.com/" target="_blank" class="project-btn">Live Site</a>
+                                <a href="https://techzazedr-frontend-production.up.railway.app" target="_blank" class="project-btn">Live Demo</a>
                             </div>
                         </div>
                     </div>
